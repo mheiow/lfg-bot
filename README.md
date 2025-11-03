@@ -1,4 +1,4 @@
-# OW2 LFG — Pro Build (Ephemeral + Confirm + Expire + Logging)
+# OW2 LFG — Pro Build (Ephemeral)
 
 **What’s included**
 - Ephemeral host wizard → **Final Confirmation** (Post / Edit / Cancel)
@@ -18,9 +18,3 @@
 - `/lfg_set_log_channel <#channel>` — owner only
 - `/lfg_info` — show config
 - `/lfg` — start
-
-## Deploy on Koyeb
-- Push files to a GitHub repo (root must contain `Dockerfile`, `index.js`, `package.json`).
-- Create Web Service; build type **Dockerfile**.
-- Env var: `DISCORD_TOKEN`.
-- Free instance + region → Deploy.
