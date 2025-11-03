@@ -10,7 +10,3 @@
 - `/lfg_set_options [region_strict] [allow_threads]`
 - `/lfg_info`
 - `/lfg`
-
-## Deploy (Koyeb)
-- Push these files to a GitHub repo (root). Create Web Service → Dockerfile build.
-- Env var: `DISCORD_TOKEN`.
